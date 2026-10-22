@@ -16,13 +16,13 @@ public class menu extends JFrame {
             }
             if(e.getPoint().x > 250 && e.getPoint().x < 350 && e.getPoint().y > 100 && e.getPoint().y < 200){
                 System.out.println("hello");
+                System.out.println("KEK");
                 System.exit(0);
             }
         }
 
         @Override
         public void mousePressed(MouseEvent e) {
-
         }
 
         @Override
