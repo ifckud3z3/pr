@@ -15,6 +15,7 @@ public class menu extends JFrame {
                 new Main();
             }
             if(e.getPoint().x > 250 && e.getPoint().x < 350 && e.getPoint().y > 100 && e.getPoint().y < 200){
+                System.out.println("hello");
                 System.exit(0);
             }
         }
