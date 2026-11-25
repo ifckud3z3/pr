@@ -44,9 +44,9 @@ public class menu extends JFrame {
     menu()
     {
         try{
-            fon = ImageIO.read(new File("/H://IMG_9665.png/"));
-            button_start = ImageIO.read(new File("/H://IMG_9667.png/"));
-            button_ext = ImageIO.read(new File("/H://IMG_9666.png/"));
+            fon = ImageIO.read(new File("/H://backgroung.png/"));
+            button_start = ImageIO.read(new File("/H://restart_button.png/"));
+            button_ext = ImageIO.read(new File("/H://close_button.png/"));
         }catch (Exception e){
             throw new RuntimeException(e);
         }

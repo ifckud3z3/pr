@@ -10,7 +10,7 @@ public class Main extends JFrame {
     Main()
     {
         try{
-            pers = ImageIO.read(new File("/H://IMG_9617 (1).png/"));
+            pers = ImageIO.read(new File("/H://blue_guy.png/"));
 
         }catch (Exception e){
             throw new RuntimeException(e);
