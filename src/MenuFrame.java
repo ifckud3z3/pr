@@ -23,7 +23,7 @@ public class MenuFrame extends JFrame {
         }
 
         setTitle("Bus Out - Меню");
-        setSize(800, 600);
+        setSize(589, 1050);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 

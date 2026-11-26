@@ -9,7 +9,7 @@ import java.io.File;
 public class GameFrame extends JFrame {
     public GameFrame() {
         setTitle("Bus Out - Уровень");
-        setSize(800, 600);
+        setSize(589, 1050);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         add(new GamePanel(this));
@@ -96,7 +96,7 @@ class GamePanel extends JPanel {
 
         // Человечек рядом с зоной посадки
         if (guyImg != null) {
-            g.drawImage(guyImg, 445, 125, 45, 65, this);
+            g.drawImage(guyImg, 445, 125, 30, 60, this);
         }
 
         // Жёлтый автобус
